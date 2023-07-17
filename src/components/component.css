@@ -1,0 +1,69 @@
+.card-area {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40%;
+}
+
+.head-area {
+    padding: 30px;
+    font-size: 25px;
+    background: #F6F6F6;
+}
+
+.body-area {
+    width: 90%;
+    margin-left: 10%;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #D8D8D8;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #D8D8D8;
+}
+
+/* .sideMenu {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+
+.menu-item {
+    background: rgb(105, 100, 200);
+    background: linear-gradient(0deg, rgba(105, 100, 200, 1) 21%, rgba(90, 98, 200, 1) 36%, rgba(60, 97, 200, 1) 80%);
+    height: 90vh;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+}
+
+/* .pro-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+} */
+
+.boxShadow {
+    border-radius: 25px;
+    height: 400px;
+    width: 300px;
+}
+.greendot{
+    color: #59B065;
+}
