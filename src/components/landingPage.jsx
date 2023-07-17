@@ -19,7 +19,6 @@ const LandingPage = () => {
     axios
       .get("https://panorbit.in/api/users.json")
       .then((res) => {
-        console.log(res, "result");
         setUserList(res?.data?.users);
       })
       .catch((error) => {
